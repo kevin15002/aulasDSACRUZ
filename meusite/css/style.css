@@ -1,0 +1,59 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(175, 1, 1);
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(155, 155, 155);
+  padding: 10px 10px;
+}
+
+#footer {
+  margin-top: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: rgb(160, 1, 1);
+  text-align: center;
+  padding: 10px;
+}
+
+.img-banner {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.img-produtos{
+  text-align: center;
+}
+
+.text-quem{
+  text-align: center;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: bold;
+}
+  
